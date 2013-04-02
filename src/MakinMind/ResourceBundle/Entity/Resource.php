@@ -111,6 +111,26 @@ class Resource
     }
 
     /**
+     * Set file
+     *
+     * @param File $licence
+     */
+    public function setFile($file)
+    {
+        $this->file = $file;
+    }
+
+    /**
+     * Get file
+     *
+     * @return string 
+     */
+    public function getFile()
+    {
+        return $this->file;
+    }
+
+    /**
      * Set mimeType
      *
      * @param string $mimeType
